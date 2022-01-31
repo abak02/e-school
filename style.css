@@ -9,10 +9,7 @@ body{
     padding: 12px 28px;
     border-radius: 33px;
 }
-.bg-color{
-    background-color: #F0FFF0;
 
-}
 .green-text{
     color: #21B573;
 }
@@ -39,4 +36,41 @@ body{
 .card-footer{
     border: none;
     background-color: white;
+}
+.container{
+    margin-bottom: 50px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-section{
+    background-color: black;
+    color: white;
+}
+.footer-section{
+    padding: 20px;
+}
+.card-des{
+    padding: 20px;
+    background-color: #F8FFFB;
+}
+.middle-card{
+    padding: 10px;
+    background-color: #F8FFFB;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: font-size .5s ease-in .2s;
+}
+
+.middle-card:hover{
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1); 
+    font-size: large;  
+}
+.desc p{
+    font-size:smaller;
+}
+.header{
+    background-color: #F0FFF0;
 }
